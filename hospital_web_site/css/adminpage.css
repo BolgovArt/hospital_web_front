@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* color: red; */
+    /* background: red; */
+}
+
+.iconList {
+    padding-top: 260px;
+    /* padding-left: 18px; */
+}
+.iconArchive {
+    padding-top: 60px;
+    /* padding-left: 15px; */
+}
+
+
+.bi-server{
+    opacity: 0.4;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 18px;
+}
+.bi-server:hover{
+    opacity: 1;
+}
+.bi-person-lines-fill{
+    opacity: 0.4;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 18px;
+}
+.bi-person-lines-fill:hover{
+    opacity: 1;
+}
+
+
+.windows_of_clients {
+    margin-left: 300px;
+}
+
+.windowsArchive {
+    margin-left: 300px;
+}
+
+.titleArchive {
+    font-size: 100px;
+    margin: auto 300px;
+}
+.titleList{
+    font-size: 100px;
+    margin: auto 300px;
+}
